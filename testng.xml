@@ -4,9 +4,9 @@
     <test verbose="2" preserve-order="true" name="/Users/sindhusmac/Desktop/SampleMavenProject">
         <classes>
             <class name="TestingSS.ExternalFiles">
-                <methods>
-                    include name="InputDataExcel"/>
-                </methods>
+            <methods>
+                <include name="InputDataExcel"/>
+            </methods>
             </class>
             <class name="TestingSS.SeleniumPractice">
                 <methods>
@@ -14,6 +14,7 @@
                     <include name="testng2"/>
                     <include name="testng3"/>
                     <include name="testng4"/>
+                    <include name="testng5"/>
                 </methods>
             </class>
         </classes>
