@@ -3,10 +3,17 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="/Users/sindhusmac/Desktop/SampleMavenProject">
         <classes>
+            <class name="TestingSS.ExternalFiles">
+                <methods>
+                    include name="InputDataExcel"/>
+                </methods>
+            </class>
             <class name="TestingSS.SeleniumPractice">
                 <methods>
                     <include name="testng1"/>
                     <include name="testng2"/>
+                    <include name="testng3"/>
+                    <include name="testng4"/>
                 </methods>
             </class>
         </classes>
